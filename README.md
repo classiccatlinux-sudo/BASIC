@@ -38,6 +38,6 @@ thats all for now!
 # BASIC
 <img width="500" height="500" alt="classic14" src="https://github.com/user-attachments/assets/af4e5148-94fc-4725-9fa6-2144be4d525e" />
 
-#classic14
+# classic14
 <img width="500" height="500" alt="classic14-github" src="https://github.com/user-attachments/assets/c8dd93b8-65f2-4ef6-968c-d24c5926864f" />
 
