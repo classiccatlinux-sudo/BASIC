@@ -11,7 +11,7 @@ def clear():
     elif sys.platform in ("linux", "darwin"):
         os.system('clear')
     else:
-        print("BASIC: err(OS for clear not known)")
+        print("BASIC: OS not known. basic only works on windows, mac, and linux,")
     
 def time3():
     time.sleep(3)
@@ -37,7 +37,7 @@ def reboot():
     elif sys.platform == "linux" or sys.platform == "darwin":
         os.system('reboot')
     else:
-        print("BASIC: err(OS for reboot not known"))
+        print("BASIC: err OS not known. basic only works on windows, mac, and linux,")
             
             
 #extras
@@ -54,4 +54,3 @@ def open_source():
     #print("(  ̳• · • ̳) ")
     #time.sleep(1)
     #print("/     づ♡ BASIC was used in this program. ")
-
