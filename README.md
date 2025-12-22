@@ -1,5 +1,6 @@
-BASIC - 1.0 - FOSS - classic14
-About
+# BASIC - 1.0 - FOSS - classic14
+
+# About
 
 BASIC is made to make coding in Python even easier.
 It’s made by classic14 (me) and is very easy to work with.
@@ -7,7 +8,7 @@ It’s FOSS and works on Linux, macOS, and also Windows,
 but it’s best for Linux. It works on most Linux distros,
 but works best on Debian.
 
-Here is how you use BASIC
+# Here is how you use BASIC
 
 Ok, let’s look at a file using BASIC. This is how it would look:
 
@@ -24,7 +25,7 @@ with just this: used(). SEE! That’s a lot easier.
 
 Now let’s look at all of the modules:
 
-Modules
+# Modules
 
 time1 – waits 1 second
 
