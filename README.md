@@ -1,40 +1,47 @@
-# BASIC - 1.0 - FOSS - classic14
+BASIC - 1.0 - FOSS - classic14
+About
 
-# about
-BASIC is made to make coding in python even more easy.
-its made by classic14 (me) and is very easy to work with.
-its FOSS and made for linux and macOS and also windows.
-but its best for linux. it works on most linux distros 
-but works best on debian.
+BASIC is made to make coding in Python even easier.
+It’s made by classic14 (me) and is very easy to work with.
+It’s FOSS and works on Linux, macOS, and also Windows,
+but it’s best for Linux. It works on most Linux distros,
+but works best on Debian.
 
-# here is how you use BASIC
-ok lets look at a file using basic this is how it would look:
+Here is how you use BASIC
 
-1. from BASIC import * <---- this imports all the features from BASIC. but
-you need to have your main python file in the same folder as BASIC for 
-it to work.
+Ok, let’s look at a file using BASIC. This is how it would look:
 
-2. used() <---- this prints: BASIC was used in this program. this is called a module
-its from the BASIC file. its not a lot to type but it does this: print("BASIC was used in this program")
-with just this: used() SEE! thats a lot more easy now lets look at all of the modules:
+from BASIC import *
+<---- This imports all the features from BASIC.
+You need to have your main Python file in the same folder as BASIC for it to work.
 
-# modules
+used()
+<---- This prints: BASIC was used in this program.
+This is called a module; it’s from the BASIC file.
+It’s not a lot to type, but it does this:
+print("BASIC was used in this program")
+with just this: used(). SEE! That’s a lot easier.
 
-1. time1 - waits 1 seconds
+Now let’s look at all of the modules:
 
-2. time3 - waits 3 seconds
+Modules
 
-3. time5 - you get it
+time1 – waits 1 second
 
-4. clear() - clears the screen 
+time3 – waits 3 seconds
 
-5. used() - prints BASIC was used in this program
+time5 – you get it
 
-6. reboot - reboots the system
+clear() – clears the screen
 
-7. update_debian - updates a debian based linux systems so linux mint and ubuntu to (needs sudo but will ask first) (only works on debian linux)
+used() – prints “BASIC was used in this program”
 
-thats all for now!
+reboot – reboots the system
+
+update_debian – updates Debian-based Linux systems, like Linux Mint and Ubuntu
+(needs sudo but will ask first) (only works on Debian Linux)
+
+That’s all for now!
 
 # BASIC
 <img width="500" height="500" alt="classic14" src="https://github.com/user-attachments/assets/af4e5148-94fc-4725-9fa6-2144be4d525e" />
