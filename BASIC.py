@@ -2,6 +2,7 @@
     
 import time
 import os
+import sys
 
 #basic_python
 def clear(): 
@@ -26,8 +27,13 @@ def update_debian():
         clear()
     
 def reboot():
-    os.system("sudo reboot now")
-    
+    if sys.platform == "win32":
+        os.system('clear')
+    elif sys.platform == "linux" or sys.platform == "darwin":
+        else:
+            print("BASIC: err(OS for clear not known"))
+            
+            
 #extras
 def used():
     print("BASIC - 1.0 was used in this program.")
