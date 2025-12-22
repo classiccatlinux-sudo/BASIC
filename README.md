@@ -3,8 +3,9 @@
 # about
 BASIC is made to make coding in python even more easy.
 its made by classic14 (me) and is very easy to work with.
-its FOSS and made for linux. windows coming soon! it works
-on most linux distros but works best on debian.
+its FOSS and made for linux and macOS and also windows.
+but its best for linux. it works on most linux distros 
+but works best on debian.
 
 # here is how you use BASIC
 ok lets look at a file using basic this is how it would look:
@@ -25,11 +26,11 @@ with just this: used() SEE! thats a lot more easy now lets look at all of the mo
 
 3. time5 - you get it
 
-4. clear() - clears the screen (note only works on linux and mac windows coming soon)
+4. clear() - clears the screen 
 
 5. used() - prints BASIC was used in this program
 
-6. reboot - reboots the system (only works on linux. windows and later mac coming soon)
+6. reboot - reboots the system
 
 7. update_debian - updates a debian based linux systems so linux mint and ubuntu to (needs sudo but will ask first) (only works on debian linux)
 
