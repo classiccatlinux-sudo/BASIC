@@ -11,7 +11,7 @@ def clear():
     elif sys.platform in ("linux", "darwin"):
         os.system('clear')
     else:
-        print("BASIC: err(OS for clear not known")
+        print("BASIC: err(OS for clear not known)")
     
 def time3():
     time.sleep(3)
@@ -48,10 +48,10 @@ def open_source():
     print("this program is fully opensoucre!")
 
 #def cat():
-    time.sleep(1)
-    print("  ∧,,,,∧ ")
-    time.sleep(1)
-    print("(  ̳• · • ̳) ")
-    time.sleep(1)
-    print("/     づ♡ BASIC was used in this program. ")
+    #time.sleep(1)
+    #print("  ∧,,,,∧ ")
+    #time.sleep(1)
+    #print("(  ̳• · • ̳) ")
+    #time.sleep(1)
+    #print("/     づ♡ BASIC was used in this program. ")
 
