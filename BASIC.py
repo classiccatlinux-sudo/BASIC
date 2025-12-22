@@ -45,7 +45,7 @@ def used():
     print("BASIC - 1.0 was used in this program.")
     
 def open_source():
-    print("this program is fully opensoucre!")
+    print("this program is fully opensource!")
 
 #def cat():
     #time.sleep(1)
