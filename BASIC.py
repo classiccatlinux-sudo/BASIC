@@ -5,8 +5,13 @@ import os
 import sys
 
 #basic_python
-def clear(): 
-    os.system('clear')
+def clear():
+    if sys.platform == "win32":
+        os.system('cls')
+    elif sys.platform in ("linux", "darwin"):
+        os.system('clear')
+    else:
+        print("BASIC: err(OS for clear not known")
     
 def time3():
     time.sleep(3)
@@ -28,10 +33,11 @@ def update_debian():
     
 def reboot():
     if sys.platform == "win32":
-        os.system('clear')
+        os.system('shutdown /r /t 0')
     elif sys.platform == "linux" or sys.platform == "darwin":
-        else:
-            print("BASIC: err(OS for clear not known"))
+        os.system('reboot')
+    else:
+        print("BASIC: err(OS for reboot not known"))
             
             
 #extras
