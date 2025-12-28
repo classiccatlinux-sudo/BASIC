@@ -1,5 +1,6 @@
-#BASIC - 1.0 - FOSS - classic14
-    
+#CASIC - 1.0 - FOSS - classic14
+#under GPL v3.0 license
+   
 import time
 import os
 import sys
@@ -11,17 +12,11 @@ def clear():
     elif sys.platform in ("linux", "darwin"):
         os.system('clear')
     else:
-        print("BASIC: OS not known. basic only works on windows, mac, and linux,")
-    
-def time3():
-    time.sleep(3)
+        print("CASIC: OS not known. CASIC only works on windows, mac, and linux,")
 
-def time5():
-    time.sleep(5)
-    
-def time1():
-    time.sleep(1)
-    
+def wait(wt):
+    time.sleep(wt)
+
 def update_debian():
     update = input("do you want to update your system? (y/n)")
     if update == "y":
@@ -37,20 +32,15 @@ def reboot():
     elif sys.platform == "linux" or sys.platform == "darwin":
         os.system('reboot')
     else:
-        print("BASIC: err OS not known. basic only works on windows, mac, and linux,")
+        print("CASIC: OS not known. CASIC only works on windows, mac, and linux,")
             
             
 #extras
 def used():
-    print("BASIC - 1.0 was used in this program.")
+    print("CASIC - 1.0 was used in this program.")
     
 def open_source():
     print("this program is fully opensource!")
 
-#def cat():
-    #time.sleep(1)
-    #print("  ∧,,,,∧ ")
-    #time.sleep(1)
-    #print("(  ̳• · • ̳) ")
-    #time.sleep(1)
-    #print("/     づ♡ BASIC was used in this program. ")
+def GPLlicense():
+    print("this program is licensed under the GNU General Public License v3.0")   
