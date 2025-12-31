@@ -67,3 +67,25 @@ def open_source():
 
 def GPLlicense():
     print("this program is licensed under the GNU General Public License v3.0") 
+
+def year():
+    time_year = time.strftime("%Y")
+    print(time_year)
+
+def month():
+    time_month = time.strftime("%m")
+    print(time_month)
+
+def day():
+    time_day = time.strftime("%d")
+    print(time_day)    
+
+def hour():
+    time_hour = time.strftime("%H")
+    print(time_hour)    
+
+def minute():   
+    time_minute = time.strftime("%M")
+    print(time_minute)
+
+    

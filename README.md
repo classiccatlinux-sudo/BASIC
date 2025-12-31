@@ -45,7 +45,19 @@ GPLlicence() - prints: GPL v3.0 was used in this program.
 
 open_source() - prints: this program is fully open soucre!
 
-put(text goes here :3) - works like print but will clear in 3 seconds. it also only works for text. (untested) 
+put(text goes here :3) - works like print but will clear in 3 seconds. it also only works for text. (untested)
+
+time funcs: (note all untested)
+
+year() - prints the year it is
+
+month() - prints the month it is
+
+day() - prints the day it is
+
+hour() - prints the hour it is
+
+minute() - prints the minute it is
 
 # classic14
 <img width="500" height="500" alt="classic14-github" src="https://github.com/user-attachments/assets/c8dd93b8-65f2-4ef6-968c-d24c5926864f" />
