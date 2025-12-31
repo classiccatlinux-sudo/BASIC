@@ -3,12 +3,12 @@
 # About
 
 CASIC is made to make coding in Python even easier.
-It’s made by classic14 (me) and is very easy to work with.
+It’s made by classic14 (me) :3 and is very easy to work with.
 It’s FOSS and works on Linux, macOS, and also Windows,
 but it’s best for Linux. It works on most Linux distros,
 but works best on Debian.
 
-# Here is how you use CASIC
+# how to use
 
 Ok, let’s look at a file using CASIC. This is how it would look:
 
@@ -40,6 +40,8 @@ update_debian() – updates Debian-based Linux systems, like Linux Mint and Ubun
 GPLlicence() - prints: GPL v3.0 was used in this program.
 
 open_source() - prints: this program is fully open soucre!
+
+put(text goes here :3) - works like print but will clear in 3 seconds. it also only works for text. (untested) 
 
 # classic14
 <img width="500" height="500" alt="classic14-github" src="https://github.com/user-attachments/assets/c8dd93b8-65f2-4ef6-968c-d24c5926864f" />
