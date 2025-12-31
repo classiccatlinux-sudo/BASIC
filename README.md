@@ -37,6 +37,10 @@ reboot() – reboots the system
 
 update_debian() – updates Debian-based Linux systems, like Linux Mint and Ubuntu (needs sudo but will ask first) (only works on Debian based Linux distros)
 
+update_arch() - updates archlinux based systems, manjaro and others (needs sudo but will ask first) (only works on archlinux based distros)
+
+update_fedora() - updates fedora/redhat based systems. (needs sudo but will ask first) (only works on fedora/redhat based Linux distros)
+
 GPLlicence() - prints: GPL v3.0 was used in this program.
 
 open_source() - prints: this program is fully open soucre!

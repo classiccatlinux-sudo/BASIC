@@ -25,7 +25,25 @@ def update_debian():
     else:
         print("will not update")
         clear()
-    
+
+def update_arch():
+    update = input("do you want to update your system? (y/n)")
+    if update == "y":
+        os.system('sudo pacman -Syu --noconfirm')
+        clear()
+    else:
+        print("will not update")
+        clear()
+
+def update_fedora():
+    update = input("do you want to update your system? (y/n)")
+    if update == "y":
+        os.system('sudo dnf upgrade --refresh -y')
+        clear()
+    else:
+        print("will not update")
+        clear()
+  
 def reboot():
     if sys.platform == "win32":
         os.system('shutdown /r /t 0')
