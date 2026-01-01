@@ -14,7 +14,7 @@ Ok, let’s look at a file using CASIC. This is how it would look:
 
 from CASIC import *
 <---- This imports all the features from CASIC.
-You need to have your main Python file in the same folder as BASIC for it to work.
+You need to have your main Python file in the same folder as CASIC for it to work.
 
 used()
 <---- This prints: CASIC was used in this program.
