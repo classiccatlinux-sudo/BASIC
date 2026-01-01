@@ -31,7 +31,7 @@ wait(time to wait in seconds would go here) - wiats for as long and you put!
 
 clear() – clears the screen
 
-used() – prints “BASIC was used in this program”
+used() – prints “CASIC was used in this program”
 
 reboot() – reboots the system
 
