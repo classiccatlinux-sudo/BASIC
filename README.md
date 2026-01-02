@@ -47,7 +47,7 @@ open_source() - prints: this program is fully open soucre!
 
 put(text goes here :3) - works like print but will clear in 3 seconds. it also only works for text. (untested)
 
-time funcs: (note all untested)
+time funcs !!!DISABLED BY DEFALT!! (all untest and dont work good sorry! :3)
 
 year() - prints the year it is
 

@@ -68,23 +68,41 @@ def open_source():
 def GPLlicense():
     print("this program is licensed under the GNU General Public License v3.0") 
 
+time_code = False
+
+#time
 def year():
+    if not time_code:
+        print("CASIC: time_code is disabled")
+        return
     time_year = time.strftime("%Y")
     print(time_year)
 
 def month():
+    if not time_code:
+        print("CASIC: time_code is disabled")
+        return
     time_month = time.strftime("%m")
     print(time_month)
 
 def day():
+    if not time_code:
+        print("CASIC: time_code is disabled")
+        return
     time_day = time.strftime("%d")
     print(time_day)    
 
 def hour():
+    if not time_code:
+        print("CASIC: time_code is disabled")
+        return
     time_hour = time.strftime("%H")
     print(time_hour)    
 
-def minute():   
+def minute():
+    if not time_code:
+        print("CASIC: time_code is disabled")
+        return
     time_minute = time.strftime("%M")
     print(time_minute)
 
