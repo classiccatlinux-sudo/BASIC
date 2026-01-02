@@ -1,10 +1,40 @@
 #CASIC - 1.0 - FOSS - classic14
 #under GPL v3.0 license
-   
+
+# ===CONF===
+time_code = False
+work = True
+old = False
+troll = False
+
+# ==errs==
+errA = "CASIC: two errors occured, please contact the developer."
+errB = "CASIC: an unknown error occured, please contact the developer."
+errC = "CASIC: :3"
+
 import time
 import os
 import sys
 
+if old == True:
+    print("CASIC: you are using an old version of CASIC, note the old versions may have bugs")
+    time.sleep(4)
+    if sys.platform == "win32":
+        os.system('cls')
+    elif sys.platform in ("linux", "darwin"):
+        os.system('clear')
+    else:
+        print("CASIC: OS not known. CASIC only works on windows, mac, and linux")
+        time.sleep(3)
+        print(errA)
+        time.sleep(3)
+        sys.exit()
+    
+if work == False:
+    print("CASIC: work is set to false, if you are a user please contact the developer. exitng...")
+    time.sleep(4)
+    sys.exit()
+    
 #basic_python
 def clear():
     if sys.platform == "win32":
@@ -68,9 +98,7 @@ def open_source():
 def GPLlicense():
     print("this program is licensed under the GNU General Public License v3.0") 
 
-time_code = False
-
-#time
+#time (disabled by default)
 def year():
     if not time_code:
         print("CASIC: time_code is disabled")
